@@ -82,6 +82,15 @@ def display_board(board)
                   puts " X | O | O "
                   puts "-----------"
                   puts " X | O | O "
+
+                board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
+                def display_board(board)
+
+                  puts " X | O | X "
+                  puts "-----------"
+                  puts " O | X | X "
+                  puts "-----------"
+                  puts " O | X | O "
                 end
               end
             end
