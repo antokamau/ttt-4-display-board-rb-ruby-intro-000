@@ -47,15 +47,15 @@ def display_board(board)
           puts "-----------"
           puts "   |   |   "
 
-          board = ["X", " ", " ", " ", "X", " ", "O", " ", "X"]
+          board = [" ", " ", " ", " ", " ", " ", "O", "O", "O"]
           def display_board(board)
 
-            puts "  X|   |   "
+            puts "  |   |    "
             puts "-----------"
-            puts "   | X |   "
+            puts "   |   |   "
             puts "-----------"
-            puts "   |   | X "
-            
+            puts " O | O | O "
+
           end
         end
       end
