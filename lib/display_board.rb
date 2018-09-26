@@ -15,7 +15,7 @@ def display_board(board)
     #puts " Welcome to Tic Tac Toe"
     puts "   |   |   "
     puts "-----------"
-    puts "   | X |   "
+    puts "   |   |   "
     puts "-----------"
     puts "   |   |   "
     end
