@@ -11,8 +11,8 @@ def display_board(board)
   end
 
   board = [" ", " ", " ", " ", " X ", " ", " ", " ", " "]
-  #def display_board(board)
-    #puts " Welcome to Tic Tac Toe"
+  def display_board(board)
+  board[4] = "X"
     puts "   |   |   "
     puts "-----------"
     puts "   |   |   "
