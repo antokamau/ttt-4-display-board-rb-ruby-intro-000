@@ -1,6 +1,6 @@
 # Define display_board that accepts a board and prints
 # out the current state.
-``ruby
+
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 display_board(board)
 
@@ -9,7 +9,7 @@ display_board(board)
   #puts "   |   |   "
   #puts "-----------"
   #puts "   |   |   "
-#end
+end
 
 
   #board = [" ", " ", " ", " ", " X ", " ", " ", " ", " "]
