@@ -92,6 +92,7 @@ def display_board(board)
                   puts "-----------"
                   puts " O | X | O "
                 end
+                end
               end
             end
           end
