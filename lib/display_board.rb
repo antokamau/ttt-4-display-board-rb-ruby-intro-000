@@ -8,7 +8,7 @@ def display_board(board)
   #puts "   |   |   "
   #puts "-----------"
   #puts "   |   |   "
-
+ output = capture_puts{ display_board(board) }
   rows = output.split("\n")
 
   expect(rows[0]).to eq("   |   |   ")
@@ -21,6 +21,8 @@ end
 
   board = [" ", " ", " ", " ", " X ", " ", " ", " ", " "]
   def display_board(board)
+    
+  output = capture_puts{ display_board(board) }
   rows = output.split("\n")
   #board[4] = "X"
     #puts "   |   |   "
