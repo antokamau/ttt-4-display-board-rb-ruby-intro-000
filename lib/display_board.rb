@@ -74,10 +74,10 @@ def display_board(board)
                 puts "-----------"
                 puts " O |   |   "
 
-                board = ["X", "X", "X", " ", " ", " ", " ", " ", " "]
+                board = ["X", "O", "O", " ", " ", " ", " ", " ", " "]
                 def display_board(board)
 
-                  puts " X | X | X "
+                  puts " X | O | O "
                   puts "-----------"
                   puts "   |   |   "
                   puts "-----------"
