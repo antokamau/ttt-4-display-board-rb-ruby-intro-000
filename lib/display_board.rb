@@ -57,7 +57,6 @@ def display_board(board)
             puts "   |   | X "
             
           end
-          end
         end
       end
     end
