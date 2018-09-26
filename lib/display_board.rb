@@ -50,7 +50,7 @@ def display_board(board)
           board = [" ", " ", " ", " ", " ", " ", "O", "O", "O"]
           def display_board(board)
 
-            puts "  |   |    "
+            puts "   |   |   "
             puts "-----------"
             puts "   |   |   "
             puts "-----------"
