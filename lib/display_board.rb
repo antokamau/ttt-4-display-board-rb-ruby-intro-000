@@ -12,6 +12,7 @@ def display_board(board)
 
   board = [" ", " ", " ", " ", " X ", " ", " ", " ", " "]
   def display_board(board)
+  rows = output.split("\n")
   #board[4] = "X"
     #puts "   |   |   "
     #puts "-----------"
